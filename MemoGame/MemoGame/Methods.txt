@@ -1,0 +1,32 @@
+
+UserMenu();
+
+InitialiseCards(); --> GenerateCards();
+
+ShowAllCards();
+Sleep.Thread(1000);
+
+While(true)
+{	
+	MovePlayerUp();
+	MovePlayerDown();
+	MovePlayerRight();
+	MovePlayerLeft();
+
+}
+
+OpenFirstCard();
+	ShowCard();
+
+OpenSecondCard();
+	ShowCard();
+
+CompareCards();
+-----> false - CloseCard();
+
+PrintResult();
+
+SaveGame();
+
+
+
